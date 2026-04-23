@@ -1,1 +1,159 @@
-Hello World
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your Name</title>
+  <meta name="description" content="Personal homepage of Your Name">
+  <style>
+    :root {
+      --text: #111827;
+      --muted: #6b7280;
+      --border: #e5e7eb;
+      --bg: #ffffff;
+      --link: #1d4ed8;
+      --maxw: 760px;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.65;
+    }
+
+    .container {
+      max-width: var(--maxw);
+      margin: 0 auto;
+      padding: 56px 20px 72px;
+    }
+
+    header {
+      margin-bottom: 40px;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: 2.2rem;
+      line-height: 1.15;
+    }
+
+    .subtitle {
+      margin: 0;
+      color: var(--muted);
+      font-size: 1.05rem;
+    }
+
+    section {
+      margin: 32px 0;
+    }
+
+    h2 {
+      font-size: 1.15rem;
+      margin: 0 0 12px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    p {
+      margin: 0 0 14px;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+
+    li {
+      margin: 8px 0;
+    }
+
+    a {
+      color: var(--link);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .small {
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    footer {
+      margin-top: 48px;
+      padding-top: 18px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    @media (max-width: 640px) {
+      .container {
+        padding-top: 40px;
+      }
+
+      h1 {
+        font-size: 1.85rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <header>
+      <h1>Your Name</h1>
+      <p class="subtitle">Research Engineer at Your Company</p>
+    </header>
+
+    <section>
+      <h2>About</h2>
+      <p>
+        I am a research engineer working on language models, adaptive inference,
+        refinement, and evaluation. My interests include efficient reasoning,
+        test-time compute, and practical methods for improving model quality
+        under real compute constraints.
+      </p>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>
+        Email:
+        <a href="mailto:your-work-email@company.com">your-work-email@company.com</a>
+      </p>
+      <p class="small">
+        You can replace this with a different contact email later if you want.
+      </p>
+    </section>
+
+    <section>
+      <h2>Links</h2>
+      <ul>
+        <li><a href="https://github.com/yourusername">GitHub</a></li>
+        <li><a href="https://scholar.google.com/citations?user=YOURID">Google Scholar</a></li>
+        <li><a href="https://www.linkedin.com/in/yourprofile">LinkedIn</a></li>
+        <li><a href="https://orcid.org/YOUR-ORCID">ORCID</a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Research</h2>
+      <p>
+        I am interested in adaptive computation, reasoning efficiency, and
+        evaluation of large language models. More updates and publications will
+        be added here over time.
+      </p>
+    </section>
+
+    <footer>
+      Last updated: April 2026
+    </footer>
+  </main>
+</body>
+</html>
